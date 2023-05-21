@@ -1,4 +1,4 @@
-package com.amikus123.pollapp.auth;
+package com.amikus123.pollapp.auth.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AuthenticationRequest {
+public class RegisterRequest {
+    private String name;
     private String email;
     private String password;
 }

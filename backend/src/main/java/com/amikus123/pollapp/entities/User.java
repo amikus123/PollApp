@@ -1,5 +1,6 @@
 package com.amikus123.pollapp.entities;
 
+import com.amikus123.pollapp.user.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

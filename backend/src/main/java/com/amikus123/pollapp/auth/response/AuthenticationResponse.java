@@ -1,4 +1,4 @@
-package com.amikus123.pollapp.auth;
+package com.amikus123.pollapp.auth.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
